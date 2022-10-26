@@ -1,0 +1,129 @@
+body {
+	background-image: url(Assets/Background.jpg); /*This sets the background image for my website*/
+	font-family: calibri, arial, sans-serif; /*This browser will select fonts in this order*/
+}
+
+a {
+	text-decoration: none; /*This turns off the underline from links*/
+	color: black; /*This changes the nav fonts to black*/
+}
+
+h1, h2, h3 {
+	margin: 0; /*This removes the margins from the headlines to close the gap between the DIVs*/
+}
+
+#container {
+	background-color: #ff69B4; /*this changes the container color to beige*/
+	width: 800px; /*the container will be 800 pixels wide*/
+	margin-left: auto; /*this will center the container in the middle of the page*/
+	margin-right: auto; /*this will center the container in the middle of the page*/
+}
+
+#header {
+	background-color: #C71585; /*the color will be light blue*/
+	color: white; /*the font color will be white*/
+	text-align: center; /*the heading is alligned to the center*/
+	padding: 5px; /*this pads the header with spacing*/
+}
+
+#content {
+	/*this creates the content div*/
+}
+
+#nav {
+	width: 160px; /*This applies a width of 160 pixels to the nav DIV*/
+	height: 1309px; /*This applies a height of 620 pixes to the nav DIV*/
+	float: left; /*Because the DIVs normally appear on a new line, we have to float it to the left*/
+	background-color: #EB65A0; /*This changes the nav color to gray*/
+	padding: 10px; /*This pads the nav with spacing*/
+}
+
+#nav ul {
+	list-style-type: none; /*This removes the bullets*/
+	padding: 0; /*This pads the nav with spacing*/
+}
+
+
+/* Navbar container */
+.navbar {
+	overflow: hidden;
+	background-color: black;
+	font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+	float: left;
+	overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit; /* Important for vertical align on mobile phones */
+	margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #ff69B4;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+	background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+
+#main {
+	width: 600px; /*this applies a width of 600 pixels to the main DIV*/
+	float: right; /*Because the DIVS normally appear on a new line, we have to float it to the right*/
+	background-color: #ff69B4; /*this changes the main color to grey*/
+}
+
+#footer {
+	clear: both; /*this means the footer will appear BELOW the floating DIVS (nav and main*/
+	padding: 10px; /*This pads the footer with spacing*/
+	background-color: #000000; /*This colors the footer black*/
+	color: lightskyblue; /*This changes the font color to white*/
+	text-align: right; /*This aligns the text to the right side of the footer DIV*/
+}
