@@ -115,7 +115,7 @@ h1, h2, h3 {
   }
 
 #main {
-	width: 600px; /*this applies a width of 600 pixels to the main DIV*/
+	width: 800px; /*this applies a width of 600 pixels to the main DIV*/
 	float: right; /*Because the DIVS normally appear on a new line, we have to float it to the right*/
 	background-color: #ff69B4; /*this changes the main color to grey*/
 }
