@@ -12,13 +12,6 @@ h1, h2, h3 {
 	margin: 0; /*This removes the margins from the headlines to close the gap between the DIVs*/
 }
 
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-}
-
 #container {
 	background-color: #ff69B4; /*this changes the container color to beige*/
 	width: 800px; /*the container will be 800 pixels wide*/
