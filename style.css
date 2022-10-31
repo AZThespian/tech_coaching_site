@@ -43,13 +43,12 @@ h1, h2, h3 {
 	padding: 0; /*This pads the nav with spacing*/
 }
 
-
 /* Navbar container */
 .navbar {
 	overflow: hidden;
 	background-color: black;
 	font-family: Arial;
-  }
+}
   
   /* Links inside the navbar */
   .navbar a {
@@ -59,13 +58,13 @@ h1, h2, h3 {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-  }
+}
   
   /* The dropdown container */
   .dropdown {
 	float: left;
 	overflow: hidden;
-  }
+}
   
   /* Dropdown button */
   .dropdown .dropbtn {
@@ -77,12 +76,12 @@ h1, h2, h3 {
 	background-color: inherit;
 	font-family: inherit; /* Important for vertical align on mobile phones */
 	margin: 0; /* Important for vertical align on mobile phones */
-  }
+}
   
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
 	background-color: #ff69B4;
-  }
+}
   
   /* Dropdown content (hidden by default) */
   .dropdown-content {
@@ -92,7 +91,7 @@ h1, h2, h3 {
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
-  }
+}
   
   /* Links inside the dropdown */
   .dropdown-content a {
@@ -102,17 +101,17 @@ h1, h2, h3 {
 	text-decoration: none;
 	display: block;
 	text-align: left;
-  }
+}
   
   /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
 	background-color: #ddd;
-  }
+}
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
 	display: block;
-  }
+}
 
 #main {
 	width: 800px; /*this applies a width of 600 pixels to the main DIV*/
