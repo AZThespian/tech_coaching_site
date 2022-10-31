@@ -36,6 +36,7 @@ h1, h2, h3 {
 	float: left; /*Because the DIVs normally appear on a new line, we have to float it to the left*/
 	background-color: #EB65A0; /*This changes the nav color to gray*/
 	padding: 10px; /*This pads the nav with spacing*/
+	width: 100%;
 }
 
 #nav ul {
@@ -59,12 +60,14 @@ h1, h2, h3 {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	width: 100%;
   }
   
   /* The dropdown container */
   .dropdown {
 	float: left;
 	overflow: hidden;
+	width: 100%;
   }
   
   /* Dropdown button */
